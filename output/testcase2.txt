@@ -1,0 +1,74 @@
+=======================================================
+                      CAMPUSTRACK
+=======================================================
+           Simple Student Result Management System     
+-------------------------------------------------------
+Enter Student Id : 4234
+Enter student Name : siva K
+Enter Age : 23
+Enter Mail Id :siva@gmail.com
+Select Course
+ 1.BCA
+ 2.B.Sc Computer Science 
+ 3.B.E/B.Tech
+ 4.MCA
+ 5.other
+Enter your course
+4
+Enter semester (1-8) : 6
+Enter  career goal: java developer
+Enter Java Marks :75
+Enter SQL Marks : 30
+Enter Web Technology Marks : 85
+Enter Aptitude Marks : 45
+Enter communication marks : 58
+Enter total classes :120
+Enter present classes : 102
+Enter number of Assessments 1 - 102
+Assignment number 1  :5
+Assignment number 2  :11
+This entry is skipped
+Enter Fee paid amount : 45000
+-----------------------------------------------
+Student Id             : 4234
+Student Name           : siva K
+Age                    : 23
+Email                  : siva@gmail.com
+Course                 : MCA
+Career Goal            : java developer
+---------------ACADEMIC DETAILS------------------
+Java Marks             : 75
+SQL Marks              : 30
+Web Technology Marks   : 85
+Aptitude Marks         : 45
+Communication Marks    : 58
+Total                  : 293 / 500
+Percentage             : 58.6
+Academic Result        : FAILED
+Grade                  : F
+----------------ATTENDANCE DETAILS----------------
+Classes Conducted      : 120
+Classes Attended       : 102
+Attendance Precentage  : 85.0 %
+Attendance Status      : REGULAR
+--------------------FEE SUMMARY-------------------
+Base Semester Fee      : 45000.0
+Scholarship percentage : 0 %
+Scholarship Amount     : 0.0
+Final payable Fee      : 45000.0
+Amount Paid            : 45000
+Fee Balance            : 0.0
+Fee Status             : CLEARED
+--------------------FINAL STATUS-------------------
+Semester Status        : ACTION REQUIRED
+--------------------FAIL CONDITION-----------------
+Reasons:
+- SQL marks are below 35.
+- Assignment average is below 5.00.
+--------------------RECOMMENDATIONS----------------
+- Revisit the failed subject and complete additional practice.
+- Complete assignments consistently and maintain an average of at least 5.00.
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice:

@@ -1,0 +1,77 @@
+=======================================================
+                      CAMPUSTRACK
+=======================================================
+           Simple Student Result Management System     
+-------------------------------------------------------
+Enter Student Id : 4228
+Enter student Name : manoj
+Enter Age : 22
+Enter Mail Id :manoj@gmail.com
+Select Course
+ 1.BCA
+ 2.B.Sc Computer Science 
+ 3.B.E/B.Tech
+ 4.MCA
+ 5.other
+Enter your course
+6
+Invalid course
+Choose only between 1-5 courses : 5
+Enter semester (1-8) : 9
+Invalid semester
+Enter semester (1-8) : 8
+Enter  career goal: nothing
+Enter Java Marks :45
+Enter SQL Marks : 45
+Enter Web Technology Marks : 45
+Enter Aptitude Marks : 45
+Enter communication marks : 45
+Enter total classes :120
+Enter present classes : 102
+Enter number of Assessments 1 - 103
+Assignment number 1  :5
+Assignment number 2  :5
+Assignment number 3  :5
+Enter Fee paid amount : 25000 
+-----------------------------------------------
+Student Id             : 4228
+Student Name           : manoj
+Age                    : 22
+Email                  : manoj@gmail.com
+Course                 : other
+Career Goal            : nothing
+---------------ACADEMIC DETAILS------------------
+Java Marks             : 45
+SQL Marks              : 45
+Web Technology Marks   : 45
+Aptitude Marks         : 45
+Communication Marks    : 45
+Total                  : 225 / 500
+Percentage             : 45.0
+Academic Result        : PASSED
+Grade                  : D
+----------------ATTENDANCE DETAILS----------------
+Classes Conducted      : 120
+Classes Attended       : 102
+Attendance Precentage  : 85.0 %
+Attendance Status      : REGULAR
+--------------------FEE SUMMARY-------------------
+Base Semester Fee      : 25000.0
+Scholarship percentage : 0 %
+Scholarship Amount     : 0.0
+Final payable Fee      : 25000.0
+Amount Paid            : 25000
+Fee Balance            : 0.0
+Fee Status             : CLEARED
+--------------------FINAL STATUS-------------------
+Semester Status        : ACTION REQUIRED
+--------------------FAIL CONDITION-----------------
+Reasons:
+--------------------RECOMMENDATIONS----------------
+- Complete assignments consistently and maintain an average of at least 5.00.
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice: 0
+Thank you for using CampusTrack.
+PS C:\Users\Durga Chiranjeevi\OneDrive\Desktop\THIRD-PRD> 

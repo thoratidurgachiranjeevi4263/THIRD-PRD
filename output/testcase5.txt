@@ -1,0 +1,220 @@
+=======================================================
+                      CAMPUSTRACK
+=======================================================
+           Simple Student Result Management System     
+-------------------------------------------------------
+Enter Student Id : 4253
+Enter student Name : mohan
+Enter Age : 22
+Enter Mail Id :mohan@gmail.com
+Select Course
+ 1.BCA
+ 2.B.Sc Computer Science 
+ 3.B.E/B.Tech
+ 4.MCA
+ 5.other
+Enter your course
+2
+Enter semester (1-8) : 5 
+Enter  career goal: tester 
+Enter Java Marks :45
+Enter SQL Marks : 85
+Enter Web Technology Marks : 75
+Enter Aptitude Marks : 95
+Enter communication marks : 55
+Enter total classes :155
+Enter present classes : 125
+Enter number of Assessments 1 - 105
+Assignment number 1  :4
+Assignment number 2  :5
+Assignment number 3  :6
+Assignment number 4  :-1
+Enter Fee paid amount : 40000
+Invalid amount
+Enter Fee paid amount35000
+-----------------------------------------------
+Student Id             : 4253
+Student Name           : mohan
+Age                    : 22
+Email                  : mohan@gmail.com
+Course                 : B.Sc Computer Science
+Career Goal            : tester
+---------------ACADEMIC DETAILS------------------
+Java Marks             : 45
+SQL Marks              : 85
+Web Technology Marks   : 75
+Aptitude Marks         : 95
+Communication Marks    : 55
+Total                  : 355 / 500
+Percentage             : 71.0
+Academic Result        : PASSED
+Grade                  : B
+----------------ATTENDANCE DETAILS----------------
+Classes Conducted      : 155
+Classes Attended       : 125
+Attendance Precentage  : 80.64516129032258 %
+Attendance Status      : REGULAR
+--------------------FEE SUMMARY-------------------
+Base Semester Fee      : 35000.0
+Scholarship percentage : 0 %
+Scholarship Amount     : 0.0
+Final payable Fee      : 35000.0
+Amount Paid            : 35000
+Fee Balance            : 0.0
+Fee Status             : CLEARED
+--------------------FINAL STATUS-------------------
+Semester Status        : CLEARED FOR NEXT SEMESTER
+--------------------FAIL CONDITION-----------------
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice: 1
+Enter Student Id : 4252
+Enter student Name : madhavi
+Enter Age : 22
+Enter Mail Id :madhavi@gmail.com
+Select Course
+ 1.BCA
+ 2.B.Sc Computer Science
+ 3.B.E/B.Tech
+ 4.MCA
+ 5.other
+Enter your course
+4
+Enter semester (1-8) : 6
+Enter  career goal: developer 
+Enter Java Marks :55
+Enter SQL Marks : 55
+Enter Web Technology Marks : 53
+Enter Aptitude Marks : 53 
+Enter communication marks : 53
+Enter total classes :50
+Enter present classes : 40
+Enter number of Assessments 1 - 103
+Assignment number 1  :5
+Assignment number 2  :5
+Assignment number 3  :4
+Enter Fee paid amount : 30000
+-----------------------------------------------
+Student Id             : 4252
+Student Name           : madhavi
+Age                    : 22
+Email                  : madhavi@gmail.com
+Course                 : MCA
+Career Goal            : developer
+---------------ACADEMIC DETAILS------------------
+Java Marks             : 55
+SQL Marks              : 55
+Web Technology Marks   : 53
+Aptitude Marks         : 53
+Communication Marks    : 53
+Total                  : 269 / 500
+Percentage             : 53.8
+Academic Result        : PASSED
+Grade                  : C
+----------------ATTENDANCE DETAILS----------------
+Classes Conducted      : 50
+Classes Attended       : 40
+Attendance Precentage  : 80.0 %
+Attendance Status      : REGULAR
+--------------------FEE SUMMARY-------------------
+Base Semester Fee      : 45000.0
+Scholarship percentage : 0 %
+Scholarship Amount     : 0.0
+Final payable Fee      : 45000.0
+Amount Paid            : 30000
+Fee Balance            : 15000.0
+Fee Status             : PENDING
+--------------------FINAL STATUS-------------------
+Semester Status        : ACTION REQUIRED
+--------------------FAIL CONDITION-----------------
+Reasons:
+- Semester fee is pending.
+- Assignment average is below 5.00.
+- Semester fee is pending.
+--------------------RECOMMENDATIONS----------------
+- Complete assignments consistently and maintain an average of at least 5.00.
+- Pay the pending semester fee before clearance.
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice: 0
+Thank you for using CampusTrack.
+PS C:\Users\Durga Chiranjeevi\OneDrive\Desktop\THIRD-PRD>  c:; cd 'c:\Users\Durga Chiranjeevi\OneDrive\Desktop\THIRD-PRD'; & 'C:\Program Files\Java\jdk-26.0.2\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\Durga Chiranjeevi\AppData\Roaming\Antigravity IDE\User\workspaceStorage\4dbefb5e9e091889d3f0b9722ff1ac4b\redhat.java\jdt_ws\THIRD-PRD_404a2eaf\bin' 'Main'
+=======================================================
+                      CAMPUSTRACK
+=======================================================
+           Simple Student Result Management System
+-------------------------------------------------------
+Enter Student Id : 4242
+Enter student Name : mani
+Enter Age : 22
+Enter Mail Id :mani@gmail.com
+Select Course
+ 1.BCA
+ 2.B.Sc Computer Science
+ 3.B.E/B.Tech
+ 4.MCA
+ 5.other
+Enter your course
+3
+Enter semester (1-8) : 6
+Enter  career goal: developer in java
+Enter Java Marks :99
+Enter SQL Marks : 99
+Enter Web Technology Marks : 99
+Enter Aptitude Marks : 99
+Enter communication marks : 99
+Enter total classes :220
+Enter present classes : 200
+Enter number of Assessments 1 - 105
+Assignment number 1  :9
+Assignment number 2  :9
+Assignment number 3  :9
+Assignment number 4  :9
+Assignment number 5  :9
+Enter Fee paid amount : 40000
+-----------------------------------------------
+Student Id             : 4242
+Student Name           : mani
+Age                    : 22
+Email                  : mani@gmail.com
+Course                 : B.E/B.Tech
+Career Goal            : developer in java
+---------------ACADEMIC DETAILS------------------
+Java Marks             : 99
+SQL Marks              : 99
+Web Technology Marks   : 99
+Aptitude Marks         : 99
+Communication Marks    : 99
+Total                  : 495 / 500
+Percentage             : 99.0
+Academic Result        : PASSED
+Grade                  : A+
+----------------ATTENDANCE DETAILS----------------
+Classes Conducted      : 220
+Classes Attended       : 200
+Attendance Precentage  : 90.9090909090909 %
+Attendance Status      : REGULAR
+--------------------FEE SUMMARY-------------------
+Base Semester Fee      : 50000.0
+Scholarship percentage : 10 %
+Scholarship Amount     : 5000.0
+Final payable Fee      : 45000.0
+Amount Paid            : 40000
+Fee Balance            : 5000.0
+Fee Status             : PENDING
+--------------------FINAL STATUS-------------------
+Semester Status        : ACTION REQUIRED
+--------------------FAIL CONDITION-----------------
+Reasons:
+- Semester fee is pending.
+- Semester fee is pending.
+--------------------RECOMMENDATIONS----------------
+- Pay the pending semester fee before clearance.
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice: 0 
+Thank you for using CampusTrack.
+PS C:\Users\Durga Chiranjeevi\OneDrive\Desktop\THIRD-PRD> 

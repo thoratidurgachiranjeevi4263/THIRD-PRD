@@ -1,0 +1,152 @@
+START
+
+Create Scanner
+
+Display CampusTrack heading
+
+DO
+
+    Read Student ID
+    Read Student Name
+
+    Read Age
+    WHILE age is not between 15 and 35
+        Display error
+        Read age again
+    END WHILE
+
+    Read Email
+
+    DO
+        Display Course Menu
+        Read Course Choice
+        Use switch to set Course Name and Fee
+    WHILE course choice is invalid
+
+    Read Semester
+    WHILE semester is not between 1 and 8
+        Display error
+        Read semester again
+    END WHILE
+
+    Consume pending newline
+    Read Career Goal
+
+    Read Java Marks
+    Validate Java Marks
+
+    Read SQL Marks
+    Validate SQL Marks
+
+    Read Web Technology Marks
+    Validate Web Technology Marks
+
+    Read Aptitude Marks
+    Validate Aptitude Marks
+
+    Read Communication Marks
+    Validate Communication Marks
+
+    Calculate Total Marks
+    Calculate Percentage
+
+    Check all subject pass conditions
+    Check overall percentage condition
+    Determine Academic Result
+
+    Determine Grade
+
+    Read Total Classes
+    Validate Total Classes
+
+    Read Present Classes
+    Validate Present Classes
+
+    Calculate Attendance Percentage
+    Determine Attendance Status using ternary operator
+
+    Read Number of Assignments
+    Validate Number of Assignments
+
+    Set Assignment Total = 0
+    Set Valid Assignment Count = 0
+
+    FOR each assignment
+        Read Assignment Score
+
+        IF score is -1
+            Display early finish message
+            BREAK
+        END IF
+
+        IF score is invalid
+            Display skipped-entry message
+            CONTINUE
+        END IF
+
+        Add score to Assignment Total
+        Increase Valid Assignment Count
+    END FOR
+
+    IF valid assignment count > 0
+        Calculate Assignment Average
+    ELSE
+        Set Assignment Average = 0
+    END IF
+
+    Determine Assignment Status
+
+    Determine Scholarship Percentage
+    Calculate Scholarship Amount
+    Calculate Final Payable Fee
+
+    Read Fee Paid
+    Validate Fee Paid
+
+    Calculate Fee Balance
+    Determine Fee Status using ternary operator
+
+    Check:
+        Academic Result
+        Attendance
+        Assignment Status
+        Fee Balance
+
+    Determine Final Semester Status using ternary operator
+
+    Display Complete Student Report
+
+    IF Final Status is ACTION REQUIRED
+
+        Display Reasons
+
+        Check every failed condition
+        Display every applicable reason
+
+        Display Recommendations
+
+        Check every applicable recommendation
+        Display recommendations
+
+    END IF
+
+    Display "Do you want to process another student?"
+    Display 1 = Yes
+    Display 0 = No
+
+    DO
+        Read Choice
+
+        IF choice is not 1 and not 0
+            Display invalid choice
+        END IF
+
+    WHILE choice is not 1 and not 0
+
+WHILE choice is 1
+
+Display closing message
+
+Close Scanner
+
+STOP
